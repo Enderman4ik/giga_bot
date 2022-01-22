@@ -52,6 +52,8 @@ class MyClient(discord.Client):
                                        5000 сыра-20%
                                        15000 сыра-10%
                                        50000 сыра-10%
+                                       
+                                       ***Цены и шансы не окончательны!***
                                        """)
         if message.content == 'Жив?':
             await message.channel.send('На связи')
