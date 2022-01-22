@@ -114,9 +114,6 @@ class MyClient(discord.Client):
          
               
 ####################Рофлеки##################################        
-#        if message.content == 'F*ck you':
-#            await message.channel.send('Oh, fuck you leather man')
-
 #        if message.content == 'Чё':
 #            await message.channel.send('https://c.tenor.com/wE8ie6blvPYAAAAM/white-guy.gif')
 #        if message.content == 'чё':
@@ -136,11 +133,11 @@ class MyClient(discord.Client):
 #            await message.channel.send('https://c.tenor.com/Qjj6UpIi2AYAAAAM/gachi-oh-shit-a-am-sorry.gif')
         
         
-#        if message.content == "Let's celebrate":
-#            await message.channel.send('https://tenor.com/view/celebrate-gachi-gif-21919560')
+       if message.content == "Let's celebrate":
+            await message.channel.send('https://tenor.com/view/celebrate-gachi-gif-21919560')
 
-#        if message.content == 'f*ck you':
-#            await message.channel.send('https://tenor.com/view/slave-gachimuchi-van-triggered-billy-gif-21373549')
+        if message.content == 'f*ck you':
+            await message.channel.send('https://tenor.com/view/slave-gachimuchi-van-triggered-billy-gif-21373549')
 
 #        if message.content == 'come on college boy':
 #           await message.channel.send('https://tenor.com/view/gachi-%D1%8F%D0%BC%D0%B0%D1%82%D0%BE-gif-18078141')
