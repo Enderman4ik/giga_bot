@@ -133,7 +133,7 @@ class MyClient(discord.Client):
 #            await message.channel.send('https://c.tenor.com/Qjj6UpIi2AYAAAAM/gachi-oh-shit-a-am-sorry.gif')
         
         
-       if message.content == "Let's celebrate":
+        if message.content == "Let's celebrate":
             await message.channel.send('https://tenor.com/view/celebrate-gachi-gif-21919560')
 
         if message.content == 'f*ck you':
