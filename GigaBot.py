@@ -79,7 +79,7 @@ class MyClient(discord.Client):
                 if s == 0:
                     await message.channel.send('Ты ничего не выиграл. Повезёт в следущий раз!')
                 elif s == 10:
-                    await message.channel.send('Поздравляю! Ты выйграл 10000 сыра!')
+                    await message.channel.send('Поздравляю! Ты выйграл 20000 сыра!')
         
             if message.content == '>Дешевый кейс':
                 s = random.choice(chip_case)
