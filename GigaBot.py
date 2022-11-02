@@ -217,5 +217,5 @@ class MyClient(discord.Client):
 
 
 
-bot = MyClient()
-bot.run('ODkzNTc3NDEzMDcyNjY2NjQ0.GpZGCA.z8zOva6juf_IqK9RL_akul-diM3aD5fRu8uEhs')
+client = MyClient(intents=intents)
+client.run('ODkzNTc3NDEzMDcyNjY2NjQ0.GpZGCA.z8zOva6juf_IqK9RL_akul-diM3aD5fRu8uEhs')
